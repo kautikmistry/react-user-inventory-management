@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext  } from 'react'
+import React, { useState, useContext  } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 
 // Component
@@ -11,12 +11,10 @@ const loginFormSchema = {
     email: {
         type: "email",
         label: "Email",
-        required: true
     },
     password: {
         type: "text",
         label: "Password",
-        required: true
     },
     submit: {
         title: "Login",

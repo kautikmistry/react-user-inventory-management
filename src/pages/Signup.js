@@ -9,17 +9,14 @@ const signupFormSchema = {
   email: {
     type: "email",
     label: "Email",
-    required: true
   },
   name: {
     type: "text",
     label: "Name",
-    required: true
   },
   password: {
     type: "text",
     label: "Password",
-    required: true
   },
   submit: {
     title: "Sign up",

@@ -7,6 +7,7 @@ table {
   padding: 0;
   margin: 0;
   border-collapse: collapse; border-spacing: 0;
+  text-align: center;
 }
 
 th,
@@ -46,20 +47,28 @@ a {
   background-color: #f1f1f1;
   color: black;
 }
+
 .form-wrapper {
   max-width: 500px;
   margin: 0 auto;
 }
+
 .input-wrapper {
   margin-bottom: 20px;
 }
+
 .input-wrapper button, .btn-default {
   background-color: #0f7fff;
   border: 0;
   padding: 10px 20px;
   color: #fff;
 }
+
 .link {
   color: #0f7fff;
   padding: 0;
+}
+
+.delete-btn a{
+  color: red;
 }

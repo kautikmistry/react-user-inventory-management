@@ -114,7 +114,7 @@ export const Table = ({ columns, rows }) => {
                                     if (column.format) {
                                         return <td key={column.accessor}>{column.format(row[column.accessor])}</td>
                                     } else if (column.accessor === 'delete') {
-                                        return <td key={column.accessor} onClick={() => deleteItem(row.id)}><a href="#!">Delete</a></td>
+                                        return <td key={column.accessor}  className='delete-btn' onClick={() => deleteItem(row.id)}><a href="#!">Delete</a></td>
                                     } else if (column.accessor === 'view') {
                                         return <td key={column.accessor}><Link to={`/item-details/${row.id}`}>View</Link></td>
                                     }
